@@ -734,6 +734,10 @@ margin-top: 30px;
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .footer{
+        width: 500px;
+    }
+    
 
 
     
