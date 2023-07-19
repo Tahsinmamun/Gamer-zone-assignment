@@ -81,11 +81,16 @@ font-weight: 500;
 }
 .follow-nav{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 10px 20px;
 
+}
+.follow-nav h5{
+    margin-top: 0px;
 }
 
 .fa-youtube{
@@ -271,6 +276,9 @@ font-weight: 700;
     flex: 1;
     gap: 20px;
     margin-top: 10px;
+    margin-bottom: 20px;
+    /* border: 2px solid red; */
+    height: 550px;
 }
 .img-1{
     width: 600px;
@@ -331,6 +339,153 @@ line-height: 30px; /* 150% */
 .img-4 img{
     width: 100%;
     height: 100%;
+}
+
+
+.color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+/* play instantly section */
+.instantly{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    /* border: 2px solid red;  */
+    height: 500px;
+}
+
+.instantly-item{
+    /* border: 2px solid red; */
+    width: 700px;
+    text-align: right;
+    line-height: 30px;
+    padding-top: 100px;
+
+}
+.instanly-img .instant-img1{
+    margin-left: 130px;
+    width: 80%;
+    height: 70%;
+    margin-top: 30px;
+}
+.instanly-img .instant-img2{
+    margin-top: -70px;
+    width: 200px;
+    height: 130px;
+    margin-left: 70px;
+    
+}
+
+/* play games online section */
+.instantly1{
+    display: flex;
+    flex-direction: row-reverse;
+    /* border: 2px solid red; */
+}
+.instant1-img1{
+    /* margin-left: 130px; */
+    width: 80%;
+    height: 60%;
+    margin-top: 30px;
+
+}
+
+.instant1-img2{
+    margin-top: -70px;
+    width: 200px;
+    height: 170px;
+    margin-left: 450px;
+
+
+}
+
+.instantly-item{
+    text-align: left;
+    
+}
+.instantly-item h2{
+    
+    font-size: 38px;
+/* font-style: normal; */
+/* font-weight: 700; */
+margin-bottom: 20px;
+
+}
+/* career section */
+
+.career{
+    display: flex;
+    background-color: #F948B2;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    height: 700px;
+
+}
+.career-item{
+    /* border: 2px solid red; */
+    display: block;
+    width: 800px;
+    /* min-height: 900px; */
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.career-item  h2{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+}
+
+.career-item p{
+    margin-top: 30px;
+    color: #FFF;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.career-img{
+    /* border: 2px solid red; */
+    text-align: center;
+    /* margin-bottom: 100px; */
+    
+
+}
+.career-img img{
+
+    width: 700px;
+    height: 700px;
+}
+.list{
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+    color: #FFF;
+/* text-align: right; */
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 200% */
+
+}
+
+.right{
+    text-align: right;
+    
 }
 
 
