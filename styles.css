@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Work Sans;
+}
+
+.i-block{
+    display: inline-block;
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-1{
+    color: #cd3cb9c9;
+    width: 120px;
+    height: 40px;
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+color: #FFF;
+/* font-family: Work Sans; */
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.btn-2{
+    color: #cd3cb9c9;
+    width: 120px;
+    height: 40px;
+    border-radius: 48px;
+background: #4EC5F7;
+margin-left: 10px;
+color: #FFF;
+font-family: Work Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+
+
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+    gap: 10px;
+}
+
+.nav-items ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.nav-items ul li{
+    padding: 10px;
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+}
+
+.nav-items img{
+    width: 69.041px;
+    height: 27px;
+    
+}
+.follow-nav{
+    display: flex;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+
+}
+
+.fa-youtube{
+    color: red;
+
+}
+
+/* play like section */
+
+.play-like-section{
+    
+height: 700px;
+background: #FFF;
+/* border: 2px solid red; */
+margin-top: 10px;
+}
+.container-height{
+
+    height: 700px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex: 1;
+
+}
+
+.play-like-item{
+    text-align: justify;
+    padding: 40px;
+    line-height: 40px;
+    margin-top: 100px;
+  
+    /* border: 2px solid red; */
+
+
+}
+.play-like-item h3{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+.play-like-item h1{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    /* font-style: normal; */
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/* margin-top: 50px; */
+/* /* width: 400px; */
+height: 100px; 
+/* border: 2px solid red; */
+padding-top: 40px;
+
+}
+.play-like-icon{
+    display: block;
+}
+.play-like-image img{
+    width: 600px;
+    margin-left: 150px;
+    height: 90%;
+}
+
+.play-like-item i,img{
+
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    color: #534C64;
+/* font-family: Work Sans; */
+font-size: 20px;
+/* font-style: normal; */
+/* font-weight: 500;
+line-height: normal;
+margin-left: 21px; */
+
+}
+
+
+/* gammer section */
+
+.gamer-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gamer-container{
+    display: flex;
+    flex: 1;
+}
+.gamer-img{
+    /* border: 2px solid rebeccapurple; */
+    /* width: 50%; */
+
+}
+
+.gamer-img img{
+    /* border: 2px solid rebeccapurple; */
+
+    width: 868px;
+height: 489px;
+
+}
+.gamer-item{
+    /* border: 2px solid rebeccapurple; */
+    text-align: right;
+    /* line-height: 20px; */
+
+
+}
+
+.gamer-item h3,p,button,h5{
+    
+       margin-top: 10px;
+
+}
+.gamer-item h3{
+    
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.gamer-item p{
+    
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+
+}
+.online{
+    text-align: center;
+    color: #0B0223;
+/* text-align: right; */
+/* font-family: Work Sans; */
+font-size: 48px;
+/* font-style: normal; */
+font-weight: 700;
+/* line-height: normal; */
+
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/* font-family: Work Sans; */
+font-size: 48px;
+/* font-style: normal; */
+font-weight: 700;
+/* line-height: normal; */
+
+}
+.collection{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+    
+
+
+
+
