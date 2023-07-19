@@ -488,6 +488,26 @@ line-height: 40px; /* 200% */
     
 }
 
+/* game type section */
+
+.game-type-container{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.game-type-container2{
+    justify-content: space-around;
+}
+
+.type-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}
+
 
     
 
