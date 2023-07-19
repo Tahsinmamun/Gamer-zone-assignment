@@ -674,6 +674,63 @@ margin-top: 30px;
         margin-top: 20px;
     }
 
+    .container-height{
+        flex-direction: column;
+        height: auto;
+    }
+    /* .play-like-item{
+        width: 300px;
+    }
+    .play-like-item img{
+        text-align: center;
+        width: 100%;
+        margin-left: 10px;
+    } */
+
+    .play-like-image img{
+        width: 300px;
+        margin-left: 5px;
+        height: auto;
+    }
+
+    .gamer-container{
+        flex-direction: column;
+        margin-top: 200px;
+    }
+    .gamer-img img{
+        width: 100%;
+        height: auto;
+
+        /* margin-left: 10px; */
+    }
+
+    .game-img{
+        flex-direction: column;
+    }
+
+    .game-img img{
+        width: 50%;
+    }
+    .play-instantly{
+        margin-top: 1200px;
+        flex-direction: column;
+    }
+    .instantly{
+        flex-direction: column;
+    }
+    .instanly-img .instant-img1 {
+        margin-left: 10px;
+    }
+    .play-instantly{
+        display: none;
+    }
+    .career{
+        display: none;
+    }
+    .game-type1{
+        margin-top: 1200px;
+    }
+
 
     
 }
