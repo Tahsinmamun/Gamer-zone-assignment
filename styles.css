@@ -740,6 +740,12 @@ justify-content: center;*/
 
 @media screen and (max-width:576px) {
 
+    body{
+        padding: 20px;
+        width: 100%;
+        /* margin-right: 20px; */
+    }
+
 
     .nav-container {
         flex-direction: column;
@@ -753,6 +759,11 @@ justify-content: center;*/
     .container-height {
         flex-direction: column;
         height: auto;
+    }
+
+    .img-box{
+        width: 100%;
+        margin-left: 100px;
     }
 
     /* .play-like-item{
@@ -773,6 +784,12 @@ justify-content: center;*/
     .gamer-container {
         flex-direction: column;
         margin-top: 200px;
+    }
+    .career{
+        position: absolute;
+    }
+    .play-instantly{
+        position: absolute;
     }
 
     .gamer-img img {
